@@ -1,0 +1,69 @@
+.menu {
+    &__item {
+        width: 350px;
+        min-height: 400px;
+        background-color: #fff;
+        box-shadow: 5px 5px 45px rgba(256,256,256,.1);
+        border-radius: 8px;
+        padding: 20px;
+        position: relative;
+    }
+    &__title {
+        font-size: 22px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    &__img {
+        width: calc(100% + 40px);
+        transform: translateX(-20px);
+        height: 240px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    &__icon {
+        //float:right;
+    }
+    &__category, &__price {
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        span {
+            font-weight: 700;
+        }
+        
+    }
+    &__btn {
+        width: 150px;
+        height: 40px;
+        border: none;
+        background-color: #29a745;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    &__category_Img{
+        position: absolute;
+        bottom: 0px;
+        right: 20px;
+        width: 128px;
+        height: 128px;
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.pizza {
+    background : url('../menu-list/pizza.png');
+}
+
+.salads {
+    background : url('../menu-list/salad.png');
+}
+
+.meat {
+    background : url('../menu-list/meat.png');
+}
+
